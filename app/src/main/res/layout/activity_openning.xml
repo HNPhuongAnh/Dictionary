@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:gravity="center"
+    tools:context=".Openning">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/dictionaryma" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/rozha_one_regular"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_height="wrap_content"
+        android:text="Explore the app" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:radius="8dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:textColor="@color/white"
+        android:radius="8dp"
+        android:text="Create account" />
+
+</LinearLayout>

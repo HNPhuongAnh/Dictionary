@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DoAnCuoiKyMonAndroid2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DoAnCuoiKyMonAndroid2" parent="Base.Theme.DoAnCuoiKyMonAndroid2" />
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:backgroundTint">@color/buttonBackground</item>
+        <item name="android:paddingHorizontal">24dp</item>
+        <item name="android:textColor">@color/buttonText</item>
+    </style>
+    <style name="BlackCursorSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="colorControlActivated">@color/primaryColor</item>
+    </style>
+</resources>

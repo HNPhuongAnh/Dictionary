@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "8132832728",
+    "firebase_url": "https://user-73a72-default-rtdb.firebaseio.com",
+    "project_id": "user-73a72",
+    "storage_bucket": "user-73a72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8132832728:android:d3c036ad3f51bca70b16ad",
+        "android_client_info": {
+          "package_name": "com.example.doan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0lE8ogRAiCRDTyGVALGeWA4-lvs6AZjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8132832728:android:a39656666f79bb1a0b16ad",
+        "android_client_info": {
+          "package_name": "com.example.doan_android2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0lE8ogRAiCRDTyGVALGeWA4-lvs6AZjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8132832728:android:4c28877dd48c22e30b16ad",
+        "android_client_info": {
+          "package_name": "com.example.doancuoikymonandroid2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0lE8ogRAiCRDTyGVALGeWA4-lvs6AZjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#e3d7bf"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/appTitleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="DICTIONARY HUB"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#5A6F70"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="30dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:iconifiedByDefault="false"
+            android:focusableInTouchMode="true"
+            app:queryHint="Search"
+            app:defaultQueryHint="Search" />
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnDictionary"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="60dp"
+        android:text="Vocabulary"
+        android:backgroundTint="#5a6f70"
+        android:textColor="#faf7f0"
+        android:drawableLeft="@drawable/baseline_book_36"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnYour_Vocabulary"
+        style="@style/ButtonStyle"
+        android:text="My Word Collection"
+        android:drawableLeft="@drawable/baseline_bookmarks_36"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5a6f70"
+        android:textColor="#faf7f0"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSearched_result"
+        style="@style/ButtonStyle"
+        android:text="Search Results"
+        android:drawableLeft="@drawable/baseline_search_36"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5a6f70"
+        android:textColor="#faf7f0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnTestApp"
+        style="@style/ButtonStyle"
+        android:drawableLeft="@drawable/baseline_star_36"
+        android:text="Test Application"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5a6f70"
+        android:textColor="#faf7f0" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAccount"
+        style="@style/ButtonStyle"
+        android:text="User Account"
+        android:drawableLeft="@drawable/baseline_account_circle_36"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#5a6f70"
+        android:textColor="#faf7f0" />
+
+</LinearLayout>
